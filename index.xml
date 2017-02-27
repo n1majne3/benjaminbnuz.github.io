@@ -7,8 +7,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Mon, 27 Feb 2017 12:33:04 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 21:18:29 +0800</lastBuildDate>
     <atom:link href="http://git.benjaminliang.cn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>welcome to Ghost</title>
+      <link>http://git.benjaminliang.cn/post/welcome-to-Ghost/</link>
+      <pubDate>Mon, 27 Feb 2017 21:18:29 +0800</pubDate>
+      
+      <guid>http://git.benjaminliang.cn/post/welcome-to-Ghost/</guid>
+      <description>
+
+&lt;p&gt;You&amp;rsquo;re live! Nice. We&amp;rsquo;ve put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it&amp;rsquo;s a shorthand way to manage your post formatting as you write!&lt;/p&gt;
+
+&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Item number one&lt;/li&gt;
+&lt;li&gt;Item number two
+
+&lt;ul&gt;
+&lt;li&gt;A nested item&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A final item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;or with numbers!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Remember to buy some milk&lt;/li&gt;
+&lt;li&gt;Drink the milk&lt;/li&gt;
+&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href=&#34;http://ghost.org&#34;&gt;http://ghost.org&lt;/a&gt; - it&amp;rsquo;ll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here&amp;rsquo;s a link to &lt;a href=&#34;http://ghost.org&#34;&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-about-images&#34;&gt;What about Images?&lt;/h3&gt;
+
+&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ghost.org/images/ghost.png&#34; alt=&#34;The Ghost Logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not sure which image you want to use yet? That&amp;rsquo;s ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
+
+&lt;p&gt;![A bowl of bananas]&lt;/p&gt;
+
+&lt;h3 id=&#34;quoting&#34;&gt;Quoting&lt;/h3&gt;
+
+&lt;p&gt;Sometimes a link isn&amp;rsquo;t enough, you want to quote someone on what they&amp;rsquo;ve said. Perhaps you&amp;rsquo;ve started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ghost - Just a blogging platform&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;working-with-code&#34;&gt;Working with Code&lt;/h3&gt;
+
+&lt;p&gt;Got a streak of geek? We&amp;rsquo;ve got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.awesome-thing {
+    display: block;
+    width: 100%;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ready-for-a-break&#34;&gt;Ready for a Break?&lt;/h3&gt;
+
+&lt;p&gt;Throw 3 or more dashes down on any new line and you&amp;rsquo;ve got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;advanced-usage&#34;&gt;Advanced Usage&lt;/h3&gt;
+
+&lt;p&gt;There&amp;rsquo;s one fantastic secret about Markdown. If you want, you can write plain old HTML and it&amp;rsquo;ll still work! Very flexible.&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&#34;text&#34; placeholder=&#34;I&#39;m an input field!&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>markdown控制图片宽度</title>
+      <link>http://git.benjaminliang.cn/post/markdown%E6%8E%A7%E5%88%B6%E5%9B%BE%E7%89%87%E5%AE%BD%E5%BA%A6/</link>
+      <pubDate>Mon, 27 Feb 2017 21:15:04 +0800</pubDate>
+      
+      <guid>http://git.benjaminliang.cn/post/markdown%E6%8E%A7%E5%88%B6%E5%9B%BE%E7%89%87%E5%AE%BD%E5%BA%A6/</guid>
+      <description>&lt;p&gt;用Md默认的插入图片格式插入图片虽然非常方便，但是也无法控制宽度，这时我们可以采用&lt;code&gt;img&lt;/code&gt;标签输入，如&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;http://oht02cw9h.bkt.clouddn.com/blog/20170226/195351232.png&amp;quot; height=&amp;quot;200&amp;quot; width=&amp;quot;200&amp;quot; /&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;即可将图片控制在200*200以内&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oht02cw9h.bkt.clouddn.com/blog/20170226/195351232.png&#34; height=&#34;200&#34; width=&#34;200&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tyler 推荐的Woedpress 插件</title>
