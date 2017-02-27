@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/benjaminbnuz.github.io/</loc>
+    <loc>http://benjaminbnuz.github.io/post/%E4%BD%BF%E7%94%A8SAE%E8%BF%90%E8%A1%8CGhost/</loc>
+    <lastmod>2017-02-27T11:09:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://benjaminbnuz.github.io/</loc>
+    <lastmod>2017-02-27T11:09:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://benjaminbnuz.github.io/post/</loc>
+    <lastmod>2017-02-27T11:09:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
