@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://example.org/</loc>
+    <lastmod>2022-09-01T03:44:38+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/</loc>
+    <lastmod>2022-09-01T03:44:38+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E9%9D%92%E9%BE%99%E7%BB%84-crypto091/</loc>
+    <lastmod>2022-09-01T03:44:38+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/</loc>
     <lastmod>2022-09-01T01:44:38+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2022-09-01T01:44:38+08:00</lastmod>
+    <loc>https://example.org/archives/</loc>
   </url><url>
-    <loc>http://example.org/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/</loc>
-    <lastmod>2022-09-01T01:44:38+08:00</lastmod>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
