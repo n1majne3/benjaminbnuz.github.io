@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>网鼎杯 2022 白虎组 Misc709 | LLL</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="winhex 补全png 头 89 50 4E 47
+得到一个二维码 扫描后并无什么有用信息
+Stegosolve 可以看到 RGB 0 1通道有杂色
+stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
+python提取：
+from PIL import Image im = Image.open(r&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.">
+    <meta name="generator" content="Hugo 0.102.2" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+<link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="网鼎杯 2022 白虎组 Misc709" />
+<meta property="og:description" content="winhex 补全png 头 89 50 4E 47
+得到一个二维码 扫描后并无什么有用信息
+Stegosolve 可以看到 RGB 0 1通道有杂色
+stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
+python提取：
+from PIL import Image im = Image.open(r&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-01T01:44:38+08:00" />
+<meta property="article:modified_time" content="2022-09-01T01:44:38+08:00" />
+
+<meta itemprop="name" content="网鼎杯 2022 白虎组 Misc709">
+<meta itemprop="description" content="winhex 补全png 头 89 50 4E 47
+得到一个二维码 扫描后并无什么有用信息
+Stegosolve 可以看到 RGB 0 1通道有杂色
+stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
+python提取：
+from PIL import Image im = Image.open(r&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img."><meta itemprop="datePublished" content="2022-09-01T01:44:38+08:00" />
+<meta itemprop="dateModified" content="2022-09-01T01:44:38+08:00" />
+<meta itemprop="wordCount" content="224">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="网鼎杯 2022 白虎组 Misc709"/>
+<meta name="twitter:description" content="winhex 补全png 头 89 50 4E 47
+得到一个二维码 扫描后并无什么有用信息
+Stegosolve 可以看到 RGB 0 1通道有杂色
+stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
+python提取：
+from PIL import Image im = Image.open(r&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        <img src="/images/logo.png" class="w100 mw5-ns" alt="LLL" />
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+    <a href="https://github.com/benjaminbnuz" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">网鼎杯 2022 白虎组 Misc709</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-09-01T01:44:38+08:00">September 1, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>winhex 补全png 头 89 50 4E 47</p>
+<p><img src="/images/tHXcode_dadb2f6e0ae8bd97133e334a8a481045.png" alt="tHXcode_dadb2f6e0ae8bd97133e334a8a481045.png"></p>
+<p>得到一个二维码
+扫描后并无什么有用信息</p>
+<p><img src="/images/image_r_1.png" alt="image_r_1.png"></p>
+<p><img src="/images/image_g_1.png" alt="image_g_1.png"></p>
+<p><img src="/images/image_b_1.png" alt="image_b_1.png"></p>
+<p>Stegosolve 可以看到 RGB 0 1通道有杂色</p>
+<p>stegsolve -  Random colour map使其显示， 可以多点几下选一个颜色差别大一点的</p>
+<p><img src="/images/2e656b20d3e94691b9b879704b284146.png" alt=""></p>
+<p><img src="/images/solved.png" alt="solved.png"></p>
+<p>python提取：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;</span>)
+</span></span><span style="display:flex;"><span>new_image <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>d <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>getdata()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> d:  <span style="color:#75715e"># 如果是二维码的颜色， 补白色， 否则补黑色</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> item  <span style="color:#f92672">==</span> (<span style="color:#ae81ff">211</span>, <span style="color:#ae81ff">221</span>, <span style="color:#ae81ff">54</span>) <span style="color:#f92672">or</span> item  <span style="color:#f92672">==</span> (<span style="color:#ae81ff">63</span>, <span style="color:#ae81ff">136</span>, <span style="color:#ae81ff">131</span>):
+</span></span><span style="display:flex;"><span>        new_image<span style="color:#f92672">.</span>append((<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        new_image<span style="color:#f92672">.</span>append((<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># print(len(new_image))</span>
+</span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>new(<span style="color:#e6db74">&#39;RGB&#39;</span>, (<span style="color:#ae81ff">348</span>, <span style="color:#ae81ff">348</span>))
+</span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>putdata(new_image)
+</span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>show
+</span></span><span style="display:flex;"><span>img<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;s.png&#39;</span>)
+</span></span></code></pre></div><p><img src="/images/s.png" alt="s.png"></p>
+<p>提取出来, 用PS看到有图案的部分是270x270， 裁切出来</p>
+<p>感觉就是一个缺了4个角的二维码， 先补全看看，可以用 PS 涂</p>
+<p><img src="/images/1610ee38e6dc7f947cc1b3a0647e0cb3.png" alt="1610ee38e6dc7f947cc1b3a0647e0cb3.png"></p>
+<p>或者python</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> product
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">new_list</span>():
+</span></span><span style="display:flex;"><span>    grid_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">27</span> <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">27</span>)]  <span style="color:#75715e"># Create a new 2D array for the new code with 27x27</span>
+</span></span><span style="display:flex;"><span>    im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#39;./270x270.png&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># split to 27x27</span>
+</span></span><span style="display:flex;"><span>    data <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>load()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> j, k, m, n <span style="color:#f92672">in</span> product(range(<span style="color:#ae81ff">27</span>), range(<span style="color:#ae81ff">27</span>), range(<span style="color:#ae81ff">10</span>), range(<span style="color:#ae81ff">10</span>)):
+</span></span><span style="display:flex;"><span>        y <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> j <span style="color:#f92672">+</span> m
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">*</span> k <span style="color:#f92672">+</span> n
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># print((j ,k, m ,n))</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># print(x, y)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> data[x, y] <span style="color:#f92672">==</span> (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>):  <span style="color:#75715e"># black</span>
+</span></span><span style="display:flex;"><span>            print(x, y)
+</span></span><span style="display:flex;"><span>            grid_list[j][k] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> grid_list:
+</span></span><span style="display:flex;"><span>        print(i)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> grid_list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">new_image</span>(list):
+</span></span><span style="display:flex;"><span>    im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>new(<span style="color:#e6db74">&#39;RGB&#39;</span>, (<span style="color:#ae81ff">270</span>, <span style="color:#ae81ff">270</span>))
+</span></span><span style="display:flex;"><span>    new_img <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> j, k <span style="color:#f92672">in</span> product(range(<span style="color:#ae81ff">270</span>), range(<span style="color:#ae81ff">270</span>)):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> list[int(j <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>)][int(k <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>)] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>            new_img<span style="color:#f92672">.</span>append((<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            new_img<span style="color:#f92672">.</span>append((<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>))
+</span></span><span style="display:flex;"><span>    im<span style="color:#f92672">.</span>putdata(new_img)
+</span></span><span style="display:flex;"><span>    im<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    new <span style="color:#f92672">=</span> new_list()
+</span></span><span style="display:flex;"><span>    new_image(new)
+</span></span></code></pre></div><p><img src="/images/72ea8b1910a7f86834f89264abf95d95.png" alt="72ea8b1910a7f86834f89264abf95d95.png"></p>
+<p>缺了四个角 用QRcode 无法补全，缺失右下角</p>
+<p><img src="/images/MicrosoftTeams-image.png" alt="MicrosoftTeams-image.png"></p>
+<p>题目的文件名叫 tHXcode_dadb2f6e0ae8bd97133e334a8a481045
+HXCode 原来是 汉信码的意思，汉信码的4个角是固定的。</p>
+<p>找一个模板对着补全:</p>
+<p><img src="/images/dba53fcbf4bf8bff77bda952f136577c.png" alt="dba53fcbf4bf8bff77bda952f136577c.png"></p>
+<p><a href="https://tuzim.net/hxdecode/">https://tuzim.net/hxdecode/</a></p>
+<p><img src="/images/bc255c170d352d5a03d368ad304a2091.png" alt="bc255c170d352d5a03d368ad304a2091.png"></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  LLL 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    <a href="https://github.com/benjaminbnuz" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
