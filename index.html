@@ -143,7 +143,7 @@
 Stegosolve 可以看到 RGB 0 1通道有杂色
 stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
 python提取：
-from PIL import Image im = Image.open(r&#34;C:\Users\Benjamin\Documents\ctf\wd\misc709\solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.
+from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.
         </div>
           <a href="/posts/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
