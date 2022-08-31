@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>misc on LLL</title>
+    <link>https://benjaminbnuz.github.io/tags/misc/</link>
+    <description>Recent content in misc on LLL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2022 01:44:38 +0800</lastBuildDate><atom:link href="https://benjaminbnuz.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网鼎杯 2022 白虎组 Misc709</title>
+      <link>https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/</link>
+      <pubDate>Thu, 01 Sep 2022 01:44:38 +0800</pubDate>
+      
+      <guid>https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/</guid>
+      <description>winhex 补全png 头 89 50 4E 47
+得到一个二维码 扫描后并无什么有用信息
+Stegosolve 可以看到 RGB 0 1通道有杂色
+stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
+python提取：
+from PIL import Image im = Image.open(r&amp;#34;solved.png&amp;#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&amp;#39;RGB&amp;#39;, (348, 348)) img.putdata(new_image) img.show img.</description>
+    </item>
+    
+  </channel>
+</rss>
