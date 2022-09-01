@@ -13,9 +13,7 @@
       <pubDate>Thu, 01 Sep 2022 03:44:38 +0800</pubDate>
       
       <guid>https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E9%9D%92%E9%BE%99%E7%BB%84-crypto091/</guid>
-      <description>
-https://www.usenix.org/system/files/sec21-heinrich.pdf
-hashcat -a 3 -m 1400 c22a563acc2a587afbfaaaa6d67bc6e628872b00bd7e998873881f7c6fdc62fc 861709?d?d?d?d?d?d?d </description>
+      <description></description>
     </item>
     
     <item>
@@ -24,12 +22,7 @@ hashcat -a 3 -m 1400 c22a563acc2a587afbfaaaa6d67bc6e628872b00bd7e998873881f7c6fd
       <pubDate>Thu, 01 Sep 2022 01:44:38 +0800</pubDate>
       
       <guid>https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/</guid>
-      <description>winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&amp;#34;solved.png&amp;#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&amp;#39;RGB&amp;#39;, (348, 348)) img.putdata(new_image) img.show img.</description>
+      <description></description>
     </item>
     
   </channel>

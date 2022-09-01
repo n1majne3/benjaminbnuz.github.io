@@ -32,7 +32,7 @@
     }
     
   },
-  "description": "winhex 补全png 头 89 50 4E 47\n得到一个二维码 扫描后并无什么有用信息\nStegosolve 可以看到 RGB 0 1通道有杂色\nstegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的\npython提取：\nfrom PIL import Image im = Image.open(r\u0026#34;solved.png\u0026#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(\u0026#39;RGB\u0026#39;, (348, 348)) img.putdata(new_image) img.show img.",
+  "description": "",
   "keywords": []
 }
 
@@ -43,38 +43,18 @@
 <meta name="generator" content="Hugo 0.102.2 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="Benjamin Liang">
 <meta name="keywords" content="">
-<meta name="description" content="winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.">
+<meta name="description" content="">
 
 
-<meta property="og:description" content="winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.">
+<meta property="og:description" content="">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网鼎杯 2022 白虎组 Misc709">
 <meta name="twitter:title" content="网鼎杯 2022 白虎组 Misc709">
 <meta property="og:url" content="https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/">
 <meta property="twitter:url" content="https://benjaminbnuz.github.io/2022/09/%E7%BD%91%E9%BC%8E%E6%9D%AF-2022-%E7%99%BD%E8%99%8E%E7%BB%84-misc709/">
 <meta property="og:site_name" content="LLL">
-<meta property="og:description" content="winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.">
-<meta name="twitter:description" content="winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.">
+<meta property="og:description" content="">
+<meta name="twitter:description" content="">
 <meta property="og:locale" content="en-us">
 
   
@@ -382,7 +362,6 @@ HXCode 原来是 汉信码的意思，汉信码的4个角是固定的。</p>
 <p><img src="dba53fcbf4bf8bff77bda952f136577c.png" alt="dba53fcbf4bf8bff77bda952f136577c.png"></p>
 <p><a href="https://tuzim.net/hxdecode/">https://tuzim.net/hxdecode/</a></p>
 <p><img src="bc255c170d352d5a03d368ad304a2091.png" alt="bc255c170d352d5a03d368ad304a2091.png"></p>
-
               
 
 

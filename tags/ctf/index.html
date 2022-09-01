@@ -264,9 +264,7 @@
     </div>
     <div class="postShorten-excerpt">
       
-        Mommy! I made a lotto program for my homework. do you want to play?
-ssh lotto@pwnable.kr -p2222 (pw:guest)
-#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;string.h&gt; #include &lt;fcntl.h&gt; unsigned char submit[6]; void play(){ int i; printf(&#34;Submit your 6 lotto bytes : &#34;); fflush(stdout); int r; r = read(0, submit, 6); printf(&#34;Lotto Start!\n&#34;); //sleep(1); // generate lotto numbers int fd = open(&#34;/dev/urandom&#34;, O_RDONLY); if(fd==-1){ printf(&#34;error. tell admin\n&#34;); exit(-1); } unsigned char lotto[6]; if(read(fd, lotto, 6) !
+        
       
       <p>
         
@@ -327,8 +325,6 @@ ssh lotto@pwnable.kr -p2222 (pw:guest)
     <div class="postShorten-excerpt">
       
         
-https://www.usenix.org/system/files/sec21-heinrich.pdf
-hashcat -a 3 -m 1400 c22a563acc2a587afbfaaaa6d67bc6e628872b00bd7e998873881f7c6fdc62fc 861709?d?d?d?d?d?d?d 
       
       <p>
         
@@ -388,12 +384,7 @@ hashcat -a 3 -m 1400 c22a563acc2a587afbfaaaa6d67bc6e628872b00bd7e998873881f7c6fd
     </div>
     <div class="postShorten-excerpt">
       
-        winhex 补全png 头 89 50 4E 47
-得到一个二维码 扫描后并无什么有用信息
-Stegosolve 可以看到 RGB 0 1通道有杂色
-stegsolve - Random colour map使其显示， 可以多点几下选一个颜色差别大一点的
-python提取：
-from PIL import Image im = Image.open(r&#34;solved.png&#34;) new_image = [] d = im.getdata() for item in d: # 如果是二维码的颜色， 补白色， 否则补黑色 if item == (211, 221, 54) or item == (63, 136, 131): new_image.append((255, 255, 255)) else: new_image.append((0, 0, 0)) # print(len(new_image)) img = Image.new(&#39;RGB&#39;, (348, 348)) img.putdata(new_image) img.show img.
+        
       
       <p>
         
